@@ -1,7 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { combineReducers, createStore } from 'redux';
-import carsReducer from './cars';
-import layoutReducer from './layout'
+import carsReducer from './ducks/cars';
+import layoutReducer from './ducks/layout'
 
 
 export default configureStore({ // Redux Thunk async calls
